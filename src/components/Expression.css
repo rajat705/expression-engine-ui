@@ -1,0 +1,68 @@
+
+.expression-form-container {
+    background-color: #F7B1AB;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight:bold;
+    font-size: larger;
+    border: 8px solid #807182;
+    border-radius: 25px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    bottom: 25%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.expression-form-container form {
+    margin-bottom: 20px;
+}
+
+.expression-form-container .form-group {
+    margin-bottom: 10px;
+}
+
+
+
+.expression-form-container .form-label {
+    text-align: left;
+    
+}
+
+.expression-form-container .form-control {
+    width: 70%;
+}
+
+.expression-form-container .btn {
+    margin-right: 50px;
+}
+
+.expression-form-container .expression-item {
+    margin-bottom: 10px;
+}
+.expression-form-container .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expression-item {
+    background-color: #807182; 
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expression-item span {
+    flex-grow: 1; 
+    margin-right: 20px; 
+    
+}
+
+
+
